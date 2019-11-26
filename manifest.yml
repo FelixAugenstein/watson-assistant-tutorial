@@ -1,0 +1,9 @@
+applications:
+- name: The-Watson-Assistant-DACH-demo
+  host: The-Watson-Assistant-DACH-demo
+  command: node server.js
+  domains:
+  - eu-de.mybluemix.net
+  path: .
+  memory: 256M
+  instances: 1
