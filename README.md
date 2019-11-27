@@ -14,7 +14,7 @@ You can view a demo of this app <a href="https://watson-assistant-demo-dach.eu-d
 ## Configuring the Watson Assistant on the IBM Cloud
 
 <h4>1) Create a Watson Assistant Service</h4>
-In the Catalogue section, click on the AI category, then select Watson Assistant. On the next page select the Lite Plan and you can also choose a region, where you would like to deploy your service as well as a service name. 
+In the Catalogue section, click on the AI category, then select Watson Assistant. On the next page select the Lite Plan - or the Plus Trial, Standard or Plus Plan for further deployment options - and you can also choose a region, where you would like to deploy your service as well as a service name. 
 
 ![Catalog Watson Assistant](readme_images/catalog-watson-assistant.png)
 
@@ -27,13 +27,35 @@ Go back to your IBM Cloud Dashboard by clicking the IBM Cloud Logo. Under servic
 <br>
 <h4>3) Create Intents, Entities and the Dialog</h4>
 The next step is to build your conversation. You can choose to build a customer service assistant, for instance. The three elements to consider are Intents, Entities and the Dialog.
-Intents define a user's goal or purpose. Per intent you can configure various user examples. An example of an intent could be #Price and user examples could be “How much does it cost?” and “What is the price?”
-Entities handle significant parts of an input that should be used to alter the way the assistant responds to the intent. An example of an entity could be @products with the entity values “juice” and “water”.
-Dialog consists of dialog nodes. Each node is made up of a trigger (condition) and a response. If the assistant recognizes the intent #Price, it could then respond: Would you like to know the price of juice or water? Otherwise, if the assistant recognizes the intent #price and the entity value @products is juice, it could then respond: The price of juice is 2€ per bottle.
+<ul>
+  <li><strong>Intents</strong> define a user's goal or purpose. Per intent you can configure various user examples. An example of an intent could be #Price and user examples could be “How much does it cost?” and “What is the price?”</li>
+<li><strong>Entities</strong> handle significant parts of an input that should be used to alter the way the assistant responds to the intent. An example of an entity could be @products with the entity values “juice” and “water”.</li>
+<li><strong>Dialog</strong> consists of dialog nodes. Each node is made up of a trigger (condition) and a response. If the assistant recognizes the intent #Price, it could then respond: Would you like to know the price of juice or water? Otherwise, if the assistant recognizes the intent #price and the entity value @products is juice, it could then respond: The price of juice is 2€ per bottle.</li>
+</ul>
 
-<br>
-<h4>4) Deploy your configured Watson Assistant</h4>
+## Deploy the Watson Assistant
+
+<h4>Deployment Option 1) Preview Link</h4>
 To deploy your assistant click on Assistants, then click on create assistant and give your integration a name. Then click on add a dialog skill to select your previously configured dialog skill. Afterwards go to the Preview Link and visit the provided URL. You can now talk to your Assistant :-)
 
 ![Create a new Skill](readme_images/deploy-assistant.png)
 
+<br>
+<h4>Deployment Option 2) Pop-up Chatbot</h4>
+For this deployment option the Plus Trial, Standard or Plus Plan is required. You can generate a code snipped, customize it and put the code wherever you need it.
+
+<br>
+<h4>Deployment Option 3) Custom App on the IBM Cloud</h4>
+Navigate to the IBM Cloud and search Cloud Foundry in the Catalog. Create a Public Application and select SDK for Node.js. Then fill in the required information. Best Practice is to use hyphens and not leave spaces, for instance for App and Host name.
+
+![Create a new Cloud Foundry App](readme_images/cloud-foundry.png)
+
+On the overview page enable continuous delivery and create a Toolchain Name. Remeber best practice is to use hyphens and not leave spaces. If you already have a Repository on GitHub select existing and provide the Repository-URL. If you don't have a repository yet, you can clone this one.
+
+![Select the GitHub Repository](readme_images/github-repository.png)
+
+You may have to create a new IBM Cloud-API-Key, which you can save somewhere. You may be required to provide it later.
+
+In your GitHub Repository copy the .env.example file and create a file called .env. Open the .env file and add the service credentials that you obtained in the previous step. If your credentials contain an IAM API key, copy the apikey and url to the relevant fields. Also make sure to update the app.js file and enter your Skill ID under var workspace.
+
+Then go back to your Cloud Foundry App and Create a new connection. Select the Service you want to connect with, in this case it is the Watson Assistant Service you created earlier. For Access Role and Service ID select Manager and Auto Generate. You will have to restage the app.
