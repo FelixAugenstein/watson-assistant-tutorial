@@ -32,7 +32,7 @@ Entities handle significant parts of an input that should be used to alter the w
 Dialog consists of dialog nodes. Each node is made up of a trigger (condition) and a response. If the assistant recognizes the intent #Price, it could then respond: Would you like to know the price of juice or water? Otherwise, if the assistant recognizes the intent #price and the entity value @products is juice, it could then respond: The price of juice is 2€ per bottle.
 
 <br>
-4) Deploy your configured Watson Assistant
+<h4>4) Deploy your configured Watson Assistant</h4>
 To deploy your assistant click on Assistants, then click on create assistant and give your integration a name. Then click on add a dialog skill to select your previously configured dialog skill. Afterwards go to the Preview Link and visit the provided URL. You can now talk to your Assistant :-)
 
 ![Create a new Skill](readme_images/deploy-assistant.png)
