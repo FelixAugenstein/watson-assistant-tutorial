@@ -17,6 +17,11 @@ div {
   line-height: 1.25rem;
 }
 
+.watson-logo {
+    width: 310px;
+    height: auto;
+}
+
 .disclaimer {
   font-size: 0.75rem;
   padding: 0.5rem;
@@ -342,21 +347,37 @@ html{
   html {
     font-size: 15px;
   }
+  
+  .watson-logo {
+    width: 100px;
+    height: auto;
+  }
 }
 
 @media only screen and (max-width: 600px) {
   html {
     font-size: 14px;
+    padding: 0;
+  }
+  
+  .watson-logo {
+    width: 100px;
+    height: auto;
   }
 
   .chat-column {
-    padding-top: 4rem;
+    padding-top: 0;
+    height: 100%;
   }
 
   #payload-column {
     width: 0;
     max-width: none;
     min-width: initial;
+  }
+  
+  .disclaimer{
+    display: none;
   }
 }
 
