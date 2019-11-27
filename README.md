@@ -40,6 +40,9 @@ To deploy your assistant click on Assistants, then click on create assistant and
 
 ![Create a new Skill](readme_images/deploy-assistant.png)
 
+The following video explains the process including the deployment option regarding the Preview Link:
+[![Why create a chatbot with IBM Cloud](https://img.youtube.com/vi/7uvUzLm212U/0.jpg)](https://www.youtube.com/watch?v=7uvUzLm212U)
+
 <br>
 <h4>Deployment Option 2) Pop-up Chatbot</h4>
 For this deployment option the Plus Trial, Standard or Plus Plan is required. You can generate a code snipped, customize it and put the code wherever you need it.
@@ -56,6 +59,12 @@ On the overview page enable continuous delivery and create a Toolchain Name. Rem
 
 You may have to create a new IBM Cloud-API-Key, which you can save somewhere. You may be required to provide it later.
 
-In your GitHub Repository copy the .env.example file and create a file called .env. Open the .env file and add the service credentials that you obtained in the previous step. If your credentials contain an IAM API key, copy the apikey and url to the relevant fields. Also make sure to update the app.js file and enter your Skill ID under var workspace.
+In your GitHub Repository update the app.js file and enter your Skill ID under `var workspace`. You can find you Skill ID in the Watson Assistant Service in the IBM Cloud. Click the three dots in the upper right and select View API Details. After updating the app.js file save it again.
+
+![Update the Skill ID](readme_images/skill-id.png)
 
 Then go back to your Cloud Foundry App and Create a new connection. Select the Service you want to connect with, in this case it is the Watson Assistant Service you created earlier. For Access Role and Service ID select Manager and Auto Generate. You will have to restage the app.
+
+Your final App should look similar to this:
+![Final Watson Assistant App](readme_images/final-watson-assistant.png)
+
