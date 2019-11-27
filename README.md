@@ -40,12 +40,18 @@ To deploy your assistant click on Assistants, then click on create assistant and
 
 ![Create a new Skill](readme_images/deploy-assistant.png)
 
+The Preview Link Chat App will look like this:<br>
+
+<img src="readme_images/preview-link.png" width=250 height="auto">
+
 The following video explains the process including the deployment option regarding the Preview Link:
 [![Why create a chatbot with IBM Cloud](https://img.youtube.com/vi/7uvUzLm212U/0.jpg)](https://www.youtube.com/watch?v=7uvUzLm212U)
 
 <br>
-<h4>Deployment Option 2) Pop-up Chatbot</h4>
-For this deployment option the Plus Trial, Standard or Plus Plan is required. You can generate a code snipped, customize it and put the code wherever you need it.
+<h4>Deployment Option 2) Web Chat</h4>
+For this deployment option the Plus Trial, Standard or Plus Plan is required. You can generate a code snipped, customize it and put the code wherever you need it.<br>
+
+<img src="readme_images/web-chat.png" width=250 height="auto">
 
 <br>
 <h4>Deployment Option 3) Custom App on the IBM Cloud</h4>
