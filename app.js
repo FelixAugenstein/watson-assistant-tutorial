@@ -45,9 +45,9 @@ const assistant = new AssistantV1({
 
 // Endpoint to be call from the client side
 app.post('/api/message', function (req, res) {
-  //var workspace = process.env.WORKSPACE_ID ; //|| '02261426-0d70-48cd-800e-9a440ee29ee4';
-  var workspace = 'b333249a-e339-4320-9777-fe6ab94b6656';
-  if (!workspace){ //|| workspace === '02261426-0d70-48cd-800e-9a440ee29ee4') {
+  //Please provide you Skill ID
+  var workspace = 'ENTER YOU SKILL ID HERE';
+  if (!workspace){
     return res.json({
       'output': {
         'text': 'The app has not been configured with a <b>WORKSPACE_ID</b> environment variable. Please refer to the ' + '<a href="https://github.com/watson-developer-cloud/assistant-simple">README</a> documentation on how to set this variable. <br>' + 'Once a workspace has been defined the intents may be imported from ' + '<a href="https://github.com/watson-developer-cloud/assistant-simple/blob/master/training/car_workspace.json">here</a> in order to get a working application.'
