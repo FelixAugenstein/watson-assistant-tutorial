@@ -145,7 +145,7 @@ div {
 
 .from-user .message-inner p {
   margin: 0.3125rem;
-  padding: 0 0.9375rem;
+  padding: 8px 20px;
 }
 
 .from-user .message-inner:before, .from-user .message-inner:after {
@@ -189,6 +189,7 @@ div {
   display: inline-block;
   min-width: 2.5rem;
   padding: 4px;
+  margin: 4px;
 }
 
 .from-watson.latest .message-inner {
