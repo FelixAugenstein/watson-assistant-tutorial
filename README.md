@@ -61,7 +61,7 @@ You may have to create a new IBM Cloud-API-Key, which you can save somewhere. Yo
 
 In your GitHub Repository update the app.js file and enter your Skill ID under `var workspace`. You can find you Skill ID in the Watson Assistant Service in the IBM Cloud. Click the three dots in the upper right and select View API Details. After updating the app.js file save it again.
 
-![Update the Skill ID](readme_images/skill-id.png)
+![Update the Skill ID](readme_images/skill-id-to-update-app-js.png)
 
 Then go back to your Cloud Foundry App and Create a new connection. Select the Service you want to connect with, in this case it is the Watson Assistant Service you created earlier. For Access Role and Service ID select Manager and Auto Generate. You will have to restage the app.
 
