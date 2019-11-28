@@ -14,13 +14,13 @@ You can view a demo of this app <a href="https://watson-assistant-demo-dach.eu-d
 ## Configuring the Watson Assistant on the IBM Cloud
 
 <h4>1) Create a Watson Assistant Service</h4>
-In the Catalogue section, click on the AI category, then select Watson Assistant. On the next page select the Lite Plan - or the Plus Trial, Standard or Plus Plan for further deployment options - and you can also choose a region, where you would like to deploy your service as well as a service name. 
+After the login you will see your IBM Cloud Dashboard. In the upper menu bar click Catalog. In the Catalog section, click on the AI category, then select Watson Assistant. On the next page select the Lite Plan - or the Plus Trial, Standard or Plus Plan for further deployment options - and you can also choose a region, where you would like to deploy your service as well as a service name. Click "Create".
 
 ![Catalog Watson Assistant](readme_images/catalog-watson-assistant.png)
 
 <br>
 <h4>2) Access your Watson Assistant Service</h4>
-Go back to your IBM Cloud Dashboard by clicking the IBM Cloud Logo. Under services you will find the Watson Assistant Service in the corresponding region. Access your service by launching it. Afterwards click on skills and create a new skill.
+Go back to your IBM Cloud Dashboard by clicking the IBM Cloud Logo on the upper left. Under services you will find the Watson Assistant Service in the corresponding region. Access your service by launching it. Afterwards click on Skills in the menu on the left and create a new Dialog skill. You have to set the language of your assistant or chatbot.
 
 ![Create a new Skill](readme_images/create-skill.png)
 
@@ -30,8 +30,10 @@ The next step is to build your conversation. You can choose to build a customer 
 <ul>
   <li><strong>Intents</strong> define a user's goal or purpose. Per intent you can configure various user examples. An example of an intent could be #Price and user examples could be “How much does it cost?” and “What is the price?”</li>
 <li><strong>Entities</strong> handle significant parts of an input that should be used to alter the way the assistant responds to the intent. An example of an entity could be @products with the entity values “juice” and “water”.</li>
-<li><strong>Dialog</strong> consists of dialog nodes. Each node is made up of a trigger (condition) and a response. If the assistant recognizes the intent #Price, it could then respond: Would you like to know the price of juice or water? Otherwise, if the assistant recognizes the intent #price and the entity value @products is juice, it could then respond: The price of juice is 2€ per bottle.</li>
+<li><strong>Dialog</strong> consists of dialog nodes. Each node is made up of a trigger (condition) and a response. If the assistant recognizes the intent #Price, it could then respond: Would you like to know the price of juice or water? Otherwise, if the assistant recognizes the intent #Price and the entity value @products is juice, it could then respond: The price of juice is 2€ per bottle.</li>
 </ul>
+
+If you need more details to configure your Intents, Entities and Dialog, [click here](https://cloud.ibm.com/docs/assistant?topic=assistant-getting-started#getting-started-add-catalog) for a step by step guide.
 
 ## Deploy the Watson Assistant
 
