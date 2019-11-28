@@ -33,7 +33,9 @@ The next step is to build your conversation. You can choose to build a customer 
 <li><strong>Dialog</strong> consists of dialog nodes. Each node is made up of a trigger (condition) and a response. If the assistant recognizes the intent #Price, it could then respond: Would you like to know the price of juice or water? Otherwise, if the assistant recognizes the intent #Price and the entity value @products is juice, it could then respond: The price of juice is 2€ per bottle.</li>
 </ul>
 
-If you need more details to configure your Intents, Entities and Dialog, [click here](https://cloud.ibm.com/docs/assistant?topic=assistant-getting-started#getting-started-add-catalog) for a step by step guide.
+You can create 3 Intents, for instance #Greeting, #Goodbye and #Joke, define user examples such as "Hello" for #Greeting, "Bye" for #Goodbye and "Tell me a joke" for #Joke. Then you can create 3 dialog nodes inside the Dialog. Now you can configure each node, for instance if assistant recognizes #Greeting Assistant responds "Hello, how can I help you?"
+
+If you need more details to configure your Intents, Entities and Dialog, [click here](https://cloud.ibm.com/docs/assistant?topic=assistant-getting-started#getting-started-add-catalog) for a step by step guide. You can also add standard nodes with the [Building a complex dialog](https://cloud.ibm.com/docs/services/assistant?topic=assistant-tutorial) tutorial or learn about slots with the [Adding a node with slots](https://cloud.ibm.com/docs/services/assistant?topic=assistant-tutorial-slots) tutorial.
 
 ## Deploy the Watson Assistant
 
