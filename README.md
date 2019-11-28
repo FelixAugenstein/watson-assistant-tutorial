@@ -33,7 +33,7 @@ The next step is to build your conversation. You can choose to build a customer 
 <li><strong>Dialog</strong> consists of dialog nodes. Each node is made up of a trigger (condition) and a response. If the assistant recognizes the intent #Price, it could then respond: Would you like to know the price of juice or water? Otherwise, if the assistant recognizes the intent #Price and the entity value @products is juice, it could then respond: The price of juice is 2€ per bottle.</li>
 </ul>
 
-You can create 3 Intents, for instance #Greeting, #Goodbye and #Joke, define user examples such as "Hello" for #Greeting, "Bye" for #Goodbye and "Tell me a joke" for #Joke. Then you can create 3 dialog nodes inside the Dialog. Now you can configure each node, for instance if assistant recognizes #Greeting Assistant responds "Hello, how can I help you?"
+You can create 3 Intents, for instance `#Greeting`, `#Goodbye` and `#Joke`, define user examples such as "Hello" for #Greeting, "Bye" for #Goodbye and "Tell me a joke" for #Joke. Then you can create 3 dialog nodes inside the Dialog. Now you can configure each node, for instance if assistant recognizes #Greeting Assistant responds "Hello, how can I help you?"
 
 If you need more details to configure your Intents, Entities and Dialog, [click here](https://cloud.ibm.com/docs/assistant?topic=assistant-getting-started#getting-started-add-catalog) for a step by step guide. You can also add standard nodes with the [Building a complex dialog](https://cloud.ibm.com/docs/services/assistant?topic=assistant-tutorial) tutorial or learn about slots with the [Adding a node with slots](https://cloud.ibm.com/docs/services/assistant?topic=assistant-tutorial-slots) tutorial.
 
@@ -65,11 +65,15 @@ Navigate to the IBM Cloud and search Cloud Foundry in the Catalog. Create a Publ
 
 On the overview page enable continuous delivery and create a Toolchain Name. Remeber best practice is to use hyphens and not leave spaces. If you already have a Repository on GitHub select existing and provide the Repository-URL. If you don't have a repository yet, you can clone this one.
 
-![Select the GitHub Repository](readme_images/github-repository.png)
+![Clone the GitHub Repository](readme_images/clone-repository.png)
 
 You may have to create a new IBM Cloud-API-Key, which you can save somewhere. You may be required to provide it later.
 
-In your GitHub Repository update the app.js file and enter your Skill ID under `var workspace`. You can find you Skill ID in the Watson Assistant Service in the IBM Cloud. Click the three dots in the upper right and select View API Details. After updating the app.js file save it again.
+After cloning the GitHub Repository you will see the toolchain overview.
+
+![Toolchain Overview](readme_images/toolchain.png)
+
+Click on Git in the middle to edit the code files. In your GitHub Repository update the app.js file and enter your Skill ID under `var workspace`. You can find you Skill ID in the Watson Assistant Service in the IBM Cloud. Click the three dots in the upper right and select View API Details. After updating the app.js file save it again. You may also be required to update the `name` and `host` in the manifest.yml. Make sure to provide a unique name and host.
 
 ![Update the Skill ID](readme_images/skill-id-to-update-app-js.png)
 
