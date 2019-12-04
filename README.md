@@ -40,7 +40,7 @@ If you need more details to configure your Intents, Entities and Dialog, [click 
 ## Deploy the Watson Assistant
 
 <h4>Deployment Option 1) Preview Link</h4>
-To deploy your assistant click on Assistants, then click on create assistant and give your integration a name. Then click on add a dialog skill to select your previously configured dialog skill. Afterwards go to the Preview Link and visit the provided URL. You can now talk to your Assistant :-)
+To deploy your assistant click on Assistants, then click on create assistant and give your integration a name. Make sure the "Enable Preview Link" checkbox is checked. Then click on add a dialog skill to select your previously configured dialog skill. Afterwards go to the Preview Link and visit the provided URL. You can now talk to your Assistant :-)
 
 ![Create a new Skill](readme_images/deploy-assistant.png)
 
