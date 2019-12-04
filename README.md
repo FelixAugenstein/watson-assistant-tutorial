@@ -34,7 +34,9 @@ The next step is to build your conversation. You can choose to build a customer 
 </ul>
 
 <h4>1) Intents</h4>
+
 Click "Create Intent". You can create a first intent `#Greeting` and define user examples such as "Hello", "Good morning", "Good day", "Hey there", and "Hi, how are you?".
+
 
 ![Create an Intent](readme_images/create-intents.png)
 
