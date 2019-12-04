@@ -1,7 +1,7 @@
 <h1 align="center" style="border-bottom: none;">:rocket: IBM Digital Tech Tutorial: Watson Assistant</h1>
 <h3 align="center">In this hands-on tutorial you will create a new IBM Watson Assistant Service on the IBM Cloud and deploy your service with a Node.js app</h3>
 
-You can view a demo of this app <a href="https://watson-assistant-demo-dach.eu-de.mybluemix.net/" target="_blank">here</a>.
+You can view a demo of this app <a href="https://watson-assistant-demo-dach.eu-de.mybluemix.net/" target="_blank">here</a>. Please be aware that the language of this Watson Assistant is German.
 
 
 ## Prerequisites
@@ -24,18 +24,45 @@ Go back to your IBM Cloud Dashboard by clicking the IBM Cloud Logo on the upper 
 
 ![Create a new Skill](readme_images/create-skill.png)
 
-<br>
-<h4>3) Create Intents, Entities and the Dialog</h4>
-The next step is to build your conversation. You can choose to build a customer service assistant, for instance. The three elements to consider are Intents, Entities and the Dialog.
+## Create Intents, Entities and the Dialog
+
+The next step is to build your conversation. You can choose to build a customer service assistant or conversational commerce, for instance. The three elements to consider are Intents, Entities and the Dialog.
 <ul>
   <li><strong>Intents</strong> define a user's goal or purpose. Per intent you can configure various user examples. An example of an intent could be #Price and user examples could be “How much does it cost?” and “What is the price?”</li>
 <li><strong>Entities</strong> handle significant parts of an input that should be used to alter the way the assistant responds to the intent. An example of an entity could be @products with the entity values “juice” and “water”.</li>
 <li><strong>Dialog</strong> consists of dialog nodes. Each node is made up of a trigger (condition) and a response. If the assistant recognizes the intent #Price, it could then respond: Would you like to know the price of juice or water? Otherwise, if the assistant recognizes the intent #Price and the entity value @products is juice, it could then respond: The price of juice is 2€ per bottle.</li>
 </ul>
 
-You can create 3 Intents, for instance `#Greeting`, `#Goodbye` and `#Joke`, define user examples such as "Hello" for #Greeting, "Bye" for #Goodbye and "Tell me a joke" for #Joke. Then you can create 3 dialog nodes inside the Dialog. Now you can configure each node, for instance if assistant recognizes #Greeting Assistant responds "Hello, how can I help you?"
+<h4>1) Intents</h4>
+Click "Create Intent". You can create a first intent `#Greeting` and define user examples such as "Hello", "Good morning", "Good day", "Hey there", and "Hi, how are you?".
+
+![Create an Intent](readme_images/create-intents.png)
+
+You can create further intents for your conversation, such as:
+
+`#Capabilities`
+User examples: "What can you do?", "How can you help me?", "How can I use you?", ... .
+
+`#Locations`
+User examples: "Where is your store?", "What is your location?", "Where can I find your store?", ... .
+
+`#Opening_Hours`
+User examples: "When is your shop open?", "When is your store open?", ... .
+
+`#Offerings`
+User examples: "What are your offerings?", "Do you have any offerings?", "What can you offer me?", ... .
+
+`#Goodbye`
+User examples: "Bye bye", "Goodbye", "Catch you later", "See you", "Have a nice day", ... .
+
 
 If you need more details to configure your Intents, Entities and Dialog, [click here](https://cloud.ibm.com/docs/assistant?topic=assistant-getting-started#getting-started-add-catalog) for a step by step guide. You can also add standard nodes with the [Building a complex dialog](https://cloud.ibm.com/docs/services/assistant?topic=assistant-tutorial) tutorial or learn about slots with the [Adding a node with slots](https://cloud.ibm.com/docs/services/assistant?topic=assistant-tutorial-slots) tutorial.
+
+<h4>2) Entities</h4>
+Text
+
+<h4>3) Dialog</h4>
+Text
 
 ## Deploy the Watson Assistant
 
