@@ -35,7 +35,7 @@ The next step is to build your conversation. You can choose to build a customer 
 
 <h4>1) Intents</h4>
 
-Click "Create Intent". You can create a first intent `#Greeting` and define user examples such as "Hello", "Good morning", "Good day", "Hey there", and "Hi, how are you?".
+Click "Create intent". You can create a first intent `#Greeting` and define user examples, such as "Hello", "Good morning", "Good day", "Hey there", and "Hi, how are you?".
 
 
 ![Create an Intent](readme_images/create-intents.png)
@@ -57,11 +57,26 @@ User examples: "What are your offerings?", "Do you have any offerings?", "What c
 `#Goodbye`
 User examples: "Bye bye", "Goodbye", "Catch you later", "See you", "Have a nice day", ... .
 
-
-If you need more details to configure your Intents, Entities and Dialog, [click here](https://cloud.ibm.com/docs/assistant?topic=assistant-getting-started#getting-started-add-catalog) for a step by step guide. You can also add standard nodes with the [Building a complex dialog](https://cloud.ibm.com/docs/services/assistant?topic=assistant-tutorial) tutorial or learn about slots with the [Adding a node with slots](https://cloud.ibm.com/docs/services/assistant?topic=assistant-tutorial-slots) tutorial.
+You can add further intents if you wish your assistant to handle more user requests.
 
 <h4>2) Entities</h4>
-Text
+Click "Create entity". You can create a first entity `@bicycle` and define values, such as "Mountainbike", "Citybike" and "E-Bike" and add synonyms for each value.
+
+
+![Create an Entity](readme_images/create-entities.png)
+
+You can create further entities for your conversation, such as:
+
+`@bell`
+Values: "Noisy", "Silent", ... .
+
+`@delivery`
+Values: "Standard delivery", "Express delivery", ... .
+
+`@payment_method`
+Values: "Credit card", "PayPal", "Invoice", ... .
+
+You can add further entities again.
 
 <h4>3) Dialog</h4>
 Text
