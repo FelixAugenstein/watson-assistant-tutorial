@@ -60,6 +60,7 @@ User examples: "Bye bye", "Goodbye", "Catch you later", "See you", "Have a nice 
 You can add further intents if you wish your assistant to handle more user requests.
 
 <h4>2) Entities</h4>
+
 Click "Create entity". You can create a first entity `@bicycle` and define values, such as "Mountainbike", "Citybike" and "E-Bike" and add synonyms for each value.
 
 
