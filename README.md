@@ -54,6 +54,9 @@ User examples: "When is your shop open?", "When is your store open?", ... .
 `#Offerings`
 User examples: "What are your offerings?", "Do you have any offerings?", "What can you offer me?", ... .
 
+`#Purchase`
+User examples: "I would like to buy", "I would like to purchase", "Can I buy", "Can I purchase", "I want to order", ... .
+
 `#Goodbye`
 User examples: "Bye bye", "Goodbye", "Catch you later", "See you", "Have a nice day", ... .
 
@@ -84,6 +87,18 @@ Go to the dialog section and you will see two dialog nodes, the Welcome and the 
 
 
 ![Create the Dialog](readme_images/create-dialog.png)
+
+After editing the welcome message create a new node with the name Greeting. Define the condition: "If assistant recognizes `#Greeting` Assistant responds, then type your message, for instance "How can I help you?".
+
+
+![Create dialog node Greeting](readme_images/create-dialog-node.png)
+
+Moreover, you can create dialog nodes for the other intents `Capabilities`, `Locations`, `Opening_Hours` and `Goodbye`. Define answer for your assistant again, for instance for the intent `Capabilities`: "I can tell you our shop locations, opening hours or help you buy one of our current offerings."
+
+Afterwards create a dialog node for the intent `#Offerings`, but instead of the assistant responding a simple text, select "Option". Therefore, you can configure your option list. In the Title input field write: These are our offerings, which one would you like to buy? Create 3 List Labels - these will be displayed as clickable options - for each bike. In the Value input field write I would like to purchase the E-Bike, Mountainbike or Citybike respectively.
+
+
+![Create dialog node Greeting](readme_images/offerings.png)
 
 ## Deploy the Watson Assistant
 
