@@ -61,7 +61,7 @@ You can add further intents if you wish your assistant to handle more user reque
 
 <h4>2) Entities</h4>
 
-Click "Create entity". You can create a first entity `@bicycle` and define values, such as "Mountainbike", "Citybike" and "E-Bike" and add synonyms for each value.
+Go to the entity section and click "Create entity". You can create a first entity `@bicycle` and define values, such as "Mountainbike", "Citybike" and "E-Bike" and add synonyms for each value.
 
 
 ![Create an Entity](readme_images/create-entities.png)
@@ -80,7 +80,9 @@ Values: "Credit card", "PayPal", "Invoice", ... .
 You can add further entities again.
 
 <h4>3) Dialog</h4>
-Text
+Go to the dialog section and you will see two dialog nodes, the Welcome and the Anything else node. Click on the Welcome node and change the welcome message. You can see that each node can be given a name. For the Welcome node the name is Welcome and the condition is "If assistant recognizes welcome" and the response is defined under "Assistant responds". You can create a new node by clicking the "Add node"-button or by clicking the 3 dots on each node and selecting add node above or below. You can also add child nodes that belong to one node or a folder for instance to store your Smalltalk-nodes.
+
+![Create an Entity](readme_images/create-dialog.png)
 
 ## Deploy the Watson Assistant
 
