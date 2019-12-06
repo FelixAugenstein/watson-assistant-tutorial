@@ -130,6 +130,8 @@ Then go back to your Cloud Foundry App and Create a new connection. Select the S
 Your final App should look similar to this:
 ![Final Watson Assistant App](readme_images/final-watson-assistant.png)
 
+For further information and hands-on tutorials regarding the Watson APIs, please refer to my [colleague's repository](https://ibm.biz/eagdach_lab).
+
 ## If you have any questions just contact me
 Felix Augenstein<br>
 Digital Tech Ecosystem & Developer Representative @IBM<br>
