@@ -82,7 +82,8 @@ You can add further entities again.
 <h4>3) Dialog</h4>
 Go to the dialog section and you will see two dialog nodes, the Welcome and the Anything else node. Click on the Welcome node and change the welcome message. You can see that each node can be given a name. For the Welcome node the name is Welcome and the condition is "If assistant recognizes welcome" and the response is defined under "Assistant responds". You can create a new node by clicking the "Add node"-button or by clicking the 3 dots on each node and selecting add node above or below. You can also add child nodes that belong to one node or a folder for instance to store your Smalltalk-nodes.
 
-![Create an Entity](readme_images/create-dialog.png)
+
+![Create the Dialog](readme_images/create-dialog.png)
 
 ## Deploy the Watson Assistant
 
