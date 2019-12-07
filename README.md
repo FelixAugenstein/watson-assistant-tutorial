@@ -93,12 +93,28 @@ After editing the welcome message create a new node with the name Greeting. Defi
 
 ![Create dialog node Greeting](readme_images/create-dialog-node.png)
 
-Moreover, you can create dialog nodes for the other intents `Capabilities`, `Locations`, `Opening_Hours` and `Goodbye`. Define answer for your assistant again, for instance for the intent `Capabilities`: "I can tell you our shop locations, opening hours or help you buy one of our current offerings."
+Moreover, you can create dialog nodes for the other intents `#Capabilities`, `#Locations`, `#Opening_Hours` and `#Goodbye`. Define answers for your assistant again, for instance for the intent `#Capabilities`: "I can tell you our shop locations, opening hours or help you buy one of our current offerings."
 
-Afterwards create a dialog node for the intent `#Offerings`, but instead of the assistant responding a simple text, select "Option". Therefore, you can configure your option list. In the Title input field write: These are our offerings, which one would you like to buy? Create 3 List Labels - these will be displayed as clickable options - for each bike. In the Value input field write I would like to purchase the E-Bike, Mountainbike or Citybike respectively.
+Afterwards create a dialog node for the intent `#Offerings`, but instead of the assistant responding a simple text, select Assistant responds with "Option". Therefore, you can configure your option list. In the Title input field write: These are our offerings, which one would you like to buy? Create 3 List Labels - these will be displayed as clickable options - for each bike. In the Value input field write "I would like to purchase the E-Bike", or "Mountainbike", or "Citybike" respectively.
 
 
 ![Create dialog node Greeting](readme_images/offerings.png)
+
+
+In the next step create a dialog node for the intent `#Purchase`. Click on the "Customize"-button on the upper right and enable Slots in the pop-up window by clicking the "turn on"-switch and finally click "Apply". Check for the 4 entities you created earlier `@bicycle`, `@bell`, `@delivery` and `@payment_method`. As an operator select "any". Context variables such as "$bicycle" will be created automatically in the "Save it as"-input field. Then write a text in the "If not present ask"-input field and ask the user about the entity and make sure to mention the options, for instance: "Which bike would you like to buy? The Citybike, Mountainbike or E-Bike?".
+
+
+![Create dialog node Greeting](readme_images/enable-slots.png)
+
+Below the slots write a purchase summary. Therefore write a text under assistant responds, for instance: "Excellent choice! Your purchase summary: $bicycle with $bell bell. Delivery: $delivery. Payment via $payment_method. Expect your $bicycle in 2-5 business days. Thank you!". Be careful to use the right context variables, which you set up in your slots.
+
+
+![Create dialog node Greeting](readme_images/purchase-summary.png)
+
+Finally you can test your assistant by clicking the Try-it-button on the upper right.You can talk to your assistant, clear the text and take a look at the context variables it saves during the conversation.
+
+
+![Create dialog node Greeting](readme_images/try-it.png)
 
 ## Deploy the Watson Assistant
 
