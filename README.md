@@ -83,7 +83,7 @@ Values: "Credit card", "PayPal", "Invoice", ... .
 You can add further entities again.
 
 <h4>3) Dialog</h4>
-Go to the dialog section and you will see two dialog nodes, the Welcome and the Anything else node. Click on the Welcome node and change the welcome message. You can see that each node can be given a name. For the Welcome node the name is Welcome and the condition is "If assistant recognizes welcome" and the response is defined under "Assistant responds". You can create a new node by clicking the "Add node"-button or by clicking the 3 dots on each node and selecting add node above or below. You can also add child nodes that belong to one node or a folder for instance to store your Smalltalk-nodes.
+Go to the dialog section and you will see two dialog nodes, the Welcome and the Anything else node. Click on the Welcome node and change the welcome message. You can see that each node can be given a name. For the Welcome node the name is Welcome and the condition is "If assistant recognizes welcome" and the response is defined under "Assistant responds". You can create a new node by clicking the "Add node"-button or by clicking the 3 dots on each node and selecting add node above or below. You can also add child nodes that belong to one "parent"-node or a folder for instance to store your Smalltalk-nodes.
 
 
 ![Create the Dialog](readme_images/create-dialog.png)
@@ -101,7 +101,7 @@ Afterwards create a dialog node for the intent `#Offerings`, but instead of the 
 ![Create dialog node Greeting](readme_images/offerings.png)
 
 
-In the next step create a dialog node for the intent `#Purchase`. Click on the "Customize"-button on the upper right and enable Slots in the pop-up window by clicking the "turn on"-switch and finally click "Apply". Check for the 4 entities you created earlier `@bicycle`, `@bell`, `@delivery` and `@payment_method`. As an operator select "any". Context variables such as "$bicycle" will be created automatically in the "Save it as"-input field. Then write a text in the "If not present ask"-input field and ask the user about the entity and make sure to mention the options, for instance: "Which bike would you like to buy? The Citybike, Mountainbike or E-Bike?".
+In the next step create a dialog node for the intent `#Purchase`. Click on the "Customize"-button on the upper right and enable Slots in the pop-up window by clicking the "turn on"-switch and finally click "Apply". Check for the 4 entities you created earlier `@bicycle`, `@bell`, `@delivery` and `@payment_method`. As an operator select "any". Context variables such as "$bicycle" will be created automatically in the "Save it as"-input field. Then write a text in the "If not present, ask"-input field and ask the user about the entity and make sure to mention the options, for instance: "Which bike would you like to buy? The Citybike, Mountainbike or E-Bike?".
 
 
 ![Create dialog node Greeting](readme_images/enable-slots.png)
@@ -111,7 +111,7 @@ Below the slots write a purchase summary. Therefore write a text under assistant
 
 ![Create dialog node Greeting](readme_images/purchase-summary.png)
 
-Finally you can test your assistant by clicking the Try-it-button on the upper right.You can talk to your assistant, clear the text and take a look at the context variables it saves during the conversation.
+Finally you can test your assistant by clicking the "Try-it"-button on the upper right. You can talk to your assistant, clear the text and take a look at the context variables it saves during the conversation.
 
 
 ![Create dialog node Greeting](readme_images/try-it.png)
