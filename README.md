@@ -32,6 +32,9 @@ The next step is to build your conversation. You can choose to build a customer 
 <li><strong>Entities</strong> handle significant parts of an input that should be used to alter the way the assistant responds to the intent. An example of an entity could be @products with the entity values “juice” and “water”.</li>
 <li><strong>Dialog</strong> consists of dialog nodes. Each node is made up of a trigger (condition) and a response. If the assistant recognizes the intent #Price, it could then respond: Would you like to know the price of juice or water? Otherwise, if the assistant recognizes the intent #Price and the entity value @products is juice, it could then respond: The price of juice is 2€ per bottle.</li>
 </ul>
+If you see something called "Actions" instead of Intents, Entities and Dialog, you can switch to the standard UI, by doing the following:
+
+![Revert to Standard UI](readme_images/revert-to-standard-ui.png)
 
 <h4>1) Intents</h4>
 
