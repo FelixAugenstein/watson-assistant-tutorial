@@ -26,7 +26,7 @@ Go back to your IBM Cloud Dashboard by clicking the IBM Cloud Logo on the upper 
 
 ## Create Intents, Entities and the Dialog
 
-The next step is to build your conversation. You can choose to build a customer service assistant or conversational commerce, for instance. The three elements to consider are Intents, Entities and the Dialog.
+The next step is to build your conversation. You can choose to build a customer service assistant, an assistant for your E-commerce, a company internal assistant or any other chatbot application of your choice. The three elements to consider are Intents, Entities and the Dialog.
 <ul>
   <li><strong>Intents</strong> define a user's goal or purpose. Per intent you can configure various user examples. An example of an intent could be #Price and user examples could be “How much does it cost?” and “What is the price?”</li>
 <li><strong>Entities</strong> handle significant parts of an input that should be used to alter the way the assistant responds to the intent. An example of an entity could be @products with the entity values “juice” and “water”.</li>
@@ -135,7 +135,7 @@ The following video explains the process including the deployment option regardi
 
 <br>
 <h4>Deployment Option 2) Web Chat</h4>
-For this deployment option the Plus Trial, Standard or Plus Plan is required. You can generate a code snipped, customize it and put the code wherever you need it.<br>
+For this deployment option the Plus Trial, Standard or Plus Plan is required. Click the "Add Integration" button and choose Web Chat. You can customize the UI for your chatbot under "Style", use further features like Home Screen, Live Agent, etc. and generate a code snippet under "Embed", which you can copy and paste.
 
 <img src="readme_images/web-chat.png" width=250 height="auto">
 
