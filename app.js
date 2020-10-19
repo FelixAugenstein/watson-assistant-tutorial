@@ -38,7 +38,7 @@ app.use(bodyParser.json());
 const assistant = new AssistantV1({
   version: '2018-07-10'
   //authenticator: new IamAuthenticator({
-    //apikey: '2i5XFd3WJrAOI7yuAZ60Tfqx54YNl46fV5d9kEbo5wbD',
+    //apikey: 'ENTER-API-Key-if-required',
   //}),
   //url: 'https://gateway-fra.watsonplatform.net/assistant/api',
 });
