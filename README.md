@@ -1,8 +1,6 @@
 <h1 align="center" style="border-bottom: none;">:rocket: IBM Digital Tech Tutorial: Watson Assistant</h1>
 <h3 align="center">In this hands-on tutorial you will create a new IBM Watson Assistant Service on the IBM Cloud and deploy your service with a Node.js app</h3>
 
-You can view a demo of this app <a href="https://watson-assistant-demo-dach.eu-de.mybluemix.net/" target="_blank">here</a>. Please be aware that the language of this Watson Assistant is German.
-
 
 ## Prerequisites
 
