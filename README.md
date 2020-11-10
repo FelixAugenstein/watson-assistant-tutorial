@@ -137,6 +137,8 @@ This deployment option works with the Lite Plan. Click the "Add Integration" but
 
 <img src="readme_images/web-chat.png" width=250 height="auto">
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/52bpMKVigGU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 <br>
 <h4>Deployment Option 3) Custom App on the IBM Cloud</h4>
 Navigate to the IBM Cloud and search Cloud Foundry in the Catalog. Create a Public Application and select SDK for Node.js. Then fill in the required information. Best Practice is to use hyphens and not leave spaces, for instance for App and Host name.
