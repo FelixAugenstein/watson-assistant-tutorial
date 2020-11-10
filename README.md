@@ -12,7 +12,7 @@
 ## Configuring the Watson Assistant on the IBM Cloud
 
 <h4>1) Create a Watson Assistant Service</h4>
-After the login you will see your IBM Cloud Dashboard. In the upper menu bar click Catalog. In the Catalog section, click on the AI category, then select Watson Assistant. On the next page select the Lite Plan - or the Plus Trial, Standard or Plus Plan for further deployment options - and you can also choose a region, where you would like to deploy your service as well as a service name. Click "Create".
+After the login you will see your IBM Cloud Dashboard. In the upper menu bar click Catalog. In the Catalog section, click on the AI category, then select Watson Assistant. On the next page select the Lite Plan - or the Plus Trial - these should cover all deployment options and you can also choose a region, where you would like to deploy your service as well as a service name. Click "Create".
 
 ![Catalog Watson Assistant](readme_images/catalog-watson-assistant.png)
 
@@ -133,7 +133,7 @@ The following video explains the process including the deployment option regardi
 
 <br>
 <h4>Deployment Option 2) Web Chat</h4>
-For this deployment option the Plus Trial, Standard or Plus Plan is required. Click the "Add Integration" button and choose Web Chat. You can customize the UI for your chatbot under "Style", use further features like Home Screen, Live Agent, etc. and generate a code snippet under "Embed", which you can copy and paste.
+This deployment option works with the Lite Plan. Click the "Add Integration" button and choose Web Chat. You can customize the UI for your chatbot under "Style", use further features like Home Screen, Live Agent, etc. and generate a code snippet under "Embed", which you can copy and paste.
 
 <img src="readme_images/web-chat.png" width=250 height="auto">
 
