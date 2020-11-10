@@ -137,7 +137,7 @@ This deployment option works with the Lite Plan. Click the "Add Integration" but
 
 <img src="readme_images/web-chat.png" width=250 height="auto">
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/52bpMKVigGU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+The following video explains the process including the deployment option regarding the Web Chat: [IBM Watson Assistant: Web Chat](https://youtu.be/52bpMKVigGU)
 
 <br>
 <h4>Deployment Option 3) Custom App on the IBM Cloud</h4>
