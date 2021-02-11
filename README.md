@@ -16,11 +16,15 @@ After the login you will see your IBM Cloud Dashboard. In the upper menu bar cli
 
 ![Catalog Watson Assistant](readme_images/catalog-watson-assistant.png)
 
+![Catalog Watson Assistant2](readme_images/catalog-watson-assistant2.png)
+
 <br>
 <h4>2) Access your Watson Assistant Service</h4>
 Go back to your IBM Cloud Dashboard by clicking the IBM Cloud Logo on the upper left. Under services you will find the Watson Assistant Service in the corresponding region. Access your service by launching it. Afterwards click on Skills in the menu on the left and create a new Dialog skill. You have to set the language of your assistant or chatbot.
 
 ![Create a new Skill](readme_images/create-skill.png)
+
+![Create a new Skill2](readme_images/create-skill2.png)
 
 ## Create Intents, Entities and the Dialog
 
@@ -30,9 +34,6 @@ The next step is to build your conversation. You can choose to build a customer 
 <li><strong>Entities</strong> handle significant parts of an input that should be used to alter the way the assistant responds to the intent. An example of an entity could be @products with the entity values “juice” and “water”.</li>
 <li><strong>Dialog</strong> consists of dialog nodes. Each node is made up of a trigger (condition) and a response. If the assistant recognizes the intent #Price, it could then respond: Would you like to know the price of juice or water? Otherwise, if the assistant recognizes the intent #Price and the entity value @products is juice, it could then respond: The price of juice is 2€ per bottle.</li>
 </ul>
-If you see something called "Actions" instead of Intents, Entities and Dialog, you can switch to the standard UI, by doing the following:
-
-![Revert to Standard UI](readme_images/revert-to-standard-ui.png)
 
 <h4>1) Intents</h4>
 
@@ -65,7 +66,7 @@ You can add further intents if you wish your assistant to handle more user reque
 
 <h4>2) Entities</h4>
 
-Go to the entity section and click "Create entity". You can create a first entity `@bicycle` and define values, such as "Mountainbike", "Citybike" and "E-Bike" and add synonyms for each value.
+Go to the entity section on the left-hand side and click "Create entity". You can create a first entity `@bicycle` and define values, such as "Mountainbike", "Citybike" and "E-Bike" and add synonyms for each value.
 
 
 ![Create an Entity](readme_images/create-entities.png)
@@ -113,6 +114,8 @@ Below the slots write a purchase summary. Therefore write a text under assistant
 ![Create dialog node Greeting](readme_images/purchase-summary.png)
 
 Finally you can test your assistant by clicking the "Try-it"-button on the upper right. You can talk to your assistant, clear the text and take a look at the context variables it saves during the conversation.
+
+If you encounter issues with the intents and responses try deleting the Anything Else node in the Dialog section.
 
 
 ![Create dialog node Greeting](readme_images/try-it.png)
