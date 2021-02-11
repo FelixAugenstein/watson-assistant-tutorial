@@ -123,22 +123,34 @@ If you encounter issues with the intents and responses try deleting the Anything
 ## Deploy the Watson Assistant
 
 <h4>Deployment Option 1) Preview Link</h4>
-To deploy your assistant click on Assistants, then click on create assistant and give your integration a name. Make sure the "Enable Preview Link" checkbox is checked. Then click on add a dialog skill to select your previously configured dialog skill. Afterwards go to the Preview Link and visit the provided URL. You can now talk to your Assistant :-)
+To deploy your assistant click on Assistants, then click on create assistant and give your integration a name. 
 
-![Create a new Skill](readme_images/deploy-assistant.png)
+![Deploy assistant](readme_images/deploy-assistant.png)
+
+Make sure the "Enable Preview Link" checkbox is checked. Then click on add a dialog skill to select your previously configured dialog skill. 
+
+![Create a new Skill](readme_images/dialog-skill.png)
+
+Afterwards click on Preview and you can start talking to your Assistant :-)
+
+![Open Preview](readme_images/open-preview.png)
 
 The Preview Link Chat App will look like this:<br>
 
-<img src="readme_images/preview-link.png" width=250 height="auto">
+![Preview Chat](readme_images/preview-chat.png)
 
 The following video explains the process including the deployment option regarding the Preview Link:
 [![Why create a chatbot with IBM Cloud](https://img.youtube.com/vi/7uvUzLm212U/0.jpg)](https://www.youtube.com/watch?v=7uvUzLm212U)
 
 <br>
 <h4>Deployment Option 2) Web Chat</h4>
-This deployment option works with the Lite Plan. Click the "Add Integration" button and choose Web Chat. You can customize the UI for your chatbot under "Style", use further features like Home Screen, Live Agent, etc. and generate a code snippet under "Embed", which you can copy and paste.
+This deployment option works with the Lite Plan. Click on Web Chat. 
 
-<img src="readme_images/web-chat.png" width=250 height="auto">
+![Web Chat](readme_images/web-chat.png)
+
+You can customize the UI for your chatbot under "Style", use further features like Home Screen, Live Agent, etc. and generate a code snippet under "Embed", which you can copy and paste.
+
+![Web Chat](readme_images/web-chat-custom.png)
 
 The following video explains the process including the deployment option regarding the Web Chat: [IBM Watson Assistant: Web Chat](https://youtu.be/52bpMKVigGU)
 
@@ -153,6 +165,8 @@ On the overview page enable continuous delivery and create a Toolchain Name. Rem
 ![Clone the GitHub Repository](readme_images/clone-repository.png)
 
 You may have to create a new IBM Cloud-API-Key, which you can save somewhere. You may be required to provide it later.
+
+![Toolchain API](readme_images/toolchain-api.png)
 
 After cloning the GitHub Repository you will see the toolchain overview.
 
