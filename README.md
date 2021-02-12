@@ -73,6 +73,9 @@ Go to the entity section on the left-hand side and click "Create entity". You ca
 
 You can create further entities for your conversation, such as:
 
+`@bicycle`
+Values: "City-Bike"," E-Bike", "Mountainbike", ... .
+
 `@bell`
 Values: "Noisy", "Silent", ... .
 
