@@ -44,23 +44,36 @@ Click "Create intent". You can create a first intent `#Greeting` and define user
 
 You can create further intents for your conversation, such as:
 
-`#Capabilities`
-User examples: "What can you do?", "How can you help me?", "How can I use you?", ... .
-
-`#Locations`
-User examples: "Where is your store?", "What is your location?", "Where can I find your store?", ... .
-
-`#Opening_Hours`
-User examples: "When is your shop open?", "When is your store open?", ... .
-
-`#Offerings`
-User examples: "What are your offerings?", "Do you have any offerings?", "What can you offer me?", ... .
-
-`#Purchase`
-User examples: "I would like to buy", "I would like to purchase", "Can I buy", "Can I purchase", "I want to order", ... .
-
-`#Goodbye`
-User examples: "Bye bye", "Goodbye", "Catch you later", "See you", "Have a nice day", ... .
+ENGLISH | GERMAN
+--- | ---
+**Capabilities** | **Funktionen**
+"What can you do?" | "Was können Sie für mich tun?"
+"How can you help me?" | "Wie können Sie mir helfen?"
+"How can I use you?" | "Wie kann ich Sie nutzen?"
+**Locations** | **Funktionen**
+"Where is your store?" | "Wo ist Ihr Geschäft?"
+"What is your location?" | "Was ist Ihr Standort?"
+"Where can I find your store?" | "Wo kann ich Ihr Geschäft finden?"
+**Opening_Hours** | **Öffnungszeiten**
+"When is your shop open?" | "Wann ist Ihr Laden geöffnet?" 
+"When is your store open?" | "Wann ist Ihr Geschäft geöffnet?"
+"What are your opening hours?" | "Was sind Ihre Öffnungszeiten?"
+**Offerings** | **Angbebote**
+"What are your offerings?" | "Was sind Ihre Angebote?"
+"Do you have any offerings?" | "Haben Sie irgendwelche Angebote?"
+"What can you offer me?" | "Was können Sie mir anbieten?"
+**Purchase** | **Kaufen**
+"I would like to buy" | "Ich möchte gerne einkaufen"
+"I would like to purchase" | "Ich möchte kaufen"
+"Can I buy" | "Kann ich kaufen"
+"Can I purchase" | "Kann ich erwerben"
+"I want to order" | "Ich möchte bestellen"
+**Goodbye** | **Auf_Wiedersehen**
+"Bye bye" | "Bye Bye"
+"Goodbye" | "Auf Wiedersehen"
+"Catch you later" | "Bis bald"
+"See you" | "Wir sehen uns"
+"Have a nice day" | "Einen schönen Tag noch"
 
 You can add further intents if you wish your assistant to handle more user requests.
 
