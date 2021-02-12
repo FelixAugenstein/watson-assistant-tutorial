@@ -46,6 +46,12 @@ You can create further intents for your conversation, such as:
 
 ENGLISH | GERMAN
 --- | ---
+**#Greetings** | **#Begrüßung**
+"Hello" | "Hallo"
+"Good morning" | "Guten Morgen"
+"Good day" | "Guten Tag"
+"Hey there" | "Hey"
+"Hi, how are you?" | "Hi, wie geht's?"
 **Capabilities** | **Funktionen**
 "What can you do?" | "Was können Sie für mich tun?"
 "How can you help me?" | "Wie können Sie mir helfen?"
