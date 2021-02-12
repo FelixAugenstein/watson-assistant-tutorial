@@ -88,13 +88,13 @@ You can create further entities for your conversation, such as:
 
  Type | ENGLISH | GERMAN
 --- | --- | ---
-**Entitiy1** | **@bicycle** | **Fahrrad**
+**Entitiy1** | **@bicycle** | **@Fahrrad**
 Values | "City-Bike"," E-Bike", "Mountainbike", ... | "City-Bike"," E-Bike", "Mountainbike", ...
-**Entitiy2** | **@bell** | **Klingel**
+**Entitiy2** | **@bell** | **@Klingel**
 Values | "Noisy", "Silent", ... | "laut","leise", ...
-**Entitiy3** | **@delivery** | **Lieferung**
+**Entitiy3** | **@delivery** | **@Lieferung**
 Values | "Standard delivery", "Express delivery", ... | "Standard Lieferung", "Express Lieferung", ...
-**Entitiy4** | **@payment_method** | **Zahlungsmethode**
+**Entitiy4** | **@payment_method** | **@Zahlungsmethode**
 Values| "Credit card", "PayPal", "Invoice"... | "Kreditkarte", "Paypal", "Rechnung" ...
 
 You can add further entities again.
