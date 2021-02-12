@@ -52,29 +52,29 @@ ENGLISH | GERMAN
 "Good day" | "Guten Tag"
 "Hey there" | "Hey"
 "Hi, how are you?" | "Hi, wie geht's?"
-**Capabilities** | **Funktionen**
+**#Capabilities** | **#Funktionen**
 "What can you do?" | "Was können Sie für mich tun?"
 "How can you help me?" | "Wie können Sie mir helfen?"
 "How can I use you?" | "Wie kann ich Sie nutzen?"
-**Locations** | **Standort**
+**#Locations** | **#Standort**
 "Where is your store?" | "Wo ist Ihr Geschäft?"
 "What is your location?" | "Was ist Ihr Standort?"
 "Where can I find your store?" | "Wo kann ich Ihr Geschäft finden?"
-**Opening_Hours** | **Öffnungszeiten**
+**#Opening_Hours** | **#Öffnungszeiten**
 "When is your shop open?" | "Wann ist Ihr Laden geöffnet?" 
 "When is your store open?" | "Wann ist Ihr Geschäft geöffnet?"
 "What are your opening hours?" | "Was sind Ihre Öffnungszeiten?"
-**Offerings** | **Angbebote**
+**#Offerings** | **#Angbebote**
 "What are your offerings?" | "Was sind Ihre Angebote?"
 "Do you have any offerings?" | "Haben Sie irgendwelche Angebote?"
 "What can you offer me?" | "Was können Sie mir anbieten?"
-**Purchase** | **Kaufen**
+**#Purchase** | **#Kaufen**
 "I would like to buy" | "Ich möchte gerne einkaufen"
 "I would like to purchase" | "Ich möchte kaufen"
 "Can I buy" | "Kann ich kaufen"
 "Can I purchase" | "Kann ich erwerben"
 "I want to order" | "Ich möchte bestellen"
-**Goodbye** | **Auf_Wiedersehen**
+**#Goodbye** | **#Auf_Wiedersehen**
 "Bye bye" | "Bye Bye"
 "Goodbye" | "Auf Wiedersehen"
 "Catch you later" | "Bis bald"
