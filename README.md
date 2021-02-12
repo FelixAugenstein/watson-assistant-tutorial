@@ -86,17 +86,16 @@ Go to the entity section on the left-hand side and click "Create entity". You ca
 
 You can create further entities for your conversation, such as:
 
-`@bicycle`
-Values: "City-Bike"," E-Bike", "Mountainbike", ... .
-
-`@bell`
-Values: "Noisy", "Silent", ... .
-
-`@delivery`
-Values: "Standard delivery", "Express delivery", ... .
-
-`@payment_method`
-Values: "Credit card", "PayPal", "Invoice", ... .
+ENGLISH | GERMAN
+--- | ---
+**@bicycle** | **Fahrrad**
+Values: "City-Bike"," E-Bike", "Mountainbike", ... | "City-Bike"," E-Bike", "Mountainbike", ...
+**@bell** | **Klingel**
+Values: "Noisy", "Silent", ... | "laut","leise", ...
+**@delivery** | **Lieferung**
+Values: "Standard delivery", "Express delivery", ... | "Standard Lieferung", "Express Lieferung", ...
+**@payment_method** | **Zahlungsmethode**
+Values: "Credit card", "PayPal", "Invoice"... | "Kreditkarte", "Paypal", "Rechnung" ...
 
 You can add further entities again.
 
