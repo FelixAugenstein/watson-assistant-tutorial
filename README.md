@@ -50,7 +50,7 @@ ENGLISH | GERMAN
 "What can you do?" | "Was können Sie für mich tun?"
 "How can you help me?" | "Wie können Sie mir helfen?"
 "How can I use you?" | "Wie kann ich Sie nutzen?"
-**Locations** | **Funktionen**
+**Locations** | **Standort**
 "Where is your store?" | "Wo ist Ihr Geschäft?"
 "What is your location?" | "Was ist Ihr Standort?"
 "Where can I find your store?" | "Wo kann ich Ihr Geschäft finden?"
