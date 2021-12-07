@@ -22,6 +22,8 @@ After the login you will see your IBM Cloud Dashboard. In the upper menu bar cli
 <h4>2) Access your Watson Assistant Service</h4>
 Go back to your IBM Cloud Dashboard by clicking the IBM Cloud Logo on the upper left. Under services you will find the Watson Assistant Service in the corresponding region. Access your service by launching it. Afterwards click on Skills in the menu on the left and create a new Dialog skill. You have to set the language of your assistant or chatbot. German or English are options for example, you will then have to create intents in the chosen language. 
 
+> If you can't find `skills`, click on the profile icon in the upper right corner, and click `Switch to classic experience`.
+
 ![Create a new Skill](readme_images/create-skill.png)
 
 ![Create a new Skill2](readme_images/create-skill2.png)
