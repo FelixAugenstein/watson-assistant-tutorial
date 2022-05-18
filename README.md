@@ -206,9 +206,3 @@ Your final App should look similar to this:
 ![Final Watson Assistant App](readme_images/final-watson-assistant.png)
 
 For further information and hands-on tutorials regarding the Watson APIs, please refer to my [colleague's repository](https://ibm.biz/eagdach_lab).
-
-## If you have any questions just contact me
-Felix Augenstein<br>
-Digital Tech Ecosystem & Developer Representative @IBM<br>
-Twitter: [@F_Augenstein](https://twitter.com/F_Augenstein)<br>
-LinkedIn: [linkedin.com/in/felixaugenstein](https://www.linkedin.com/in/felixaugenstein/)
